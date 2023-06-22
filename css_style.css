@@ -1,0 +1,18 @@
+.first {
+    color:blue;
+    font-size: 24px
+}
+
+#second {
+    color: red;
+    font-size: 24px
+}
+
+p, span{
+    color:green;
+}
+
+div>p {
+    color:green;
+    font-size: 24px;
+}

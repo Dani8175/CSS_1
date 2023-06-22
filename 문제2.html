@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .button {
+            display: block;
+            padding: 10px 1px; 
+            margin: 1px;
+            background-color: rgb(168, 183, 255);
+            color: white;
+            border-radius: 5px;
+        }
+        .button:hover{
+            background-color: rgb(255, 168, 245);
+            color:greenyellow
+        }
+        .button:focus{
+            outline: none;
+            box-shadow: 0 0 5px black;
+        }
+        .button:nth-child(2){
+            background-color: blue;
+        }
+        .tstyle{
+            border-collapse: collapse;
+            border-color: white;
+            width: 300px;
+            height:150px;
+        }
+        th, td{
+            display: inlineblock;
+            border: px solid rgba(175, 188, 255, 0.87);
+            text-align: center;
+            font-weight: 300;
+            border-radius: 5px;
+            width: 60px;
+            height:10px;
+        }
+        .item1 {
+            background-color: rgb(79, 103, 222);
+        }
+        .item2 {
+            background-color: rgb(168, 183, 255);
+        }
+    </style>
+</head>
+<body>
+    <table class="tstyle">
+        <thead  style="font-size: 6px;">
+            <th class="item2" style="color: white;" >MENU1</th>
+            <th class="item1" style="color: white;" >MENU2</th>
+            <th class="item1" style="color: white;" >MENU3</th>
+            <th class="item1" style="color: white;" >MENU4</th>
+            <th class="item1" style="color: white;" >MENU5</th>
+        </thead>
+        <tbody style="font-size: 5px;">
+            <tr >
+                <td herf="#" class="button" class="item2" style="color: white;" >submenu01</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td herf="#" class="button" class="item2" style="color: white;" >submenu02</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td herf="#" class="button" class="item2" style="color: white;" >submenu03</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td herf="#" class="button" class="item2" style="color: white;" >submenu04</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td herf="#" class="button" class="item2" style="color: white;" >submenu05</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
